@@ -60,7 +60,7 @@ function theYoungest(membersA){
   var geekMenor= '';
   for (i=0; i<membersA.length; i++){
 
-    if (membersA[i].edad < 35){
+    if (membersA[i].age < 35){
 
      geekMenor = membersA[i].name;
 
@@ -71,16 +71,8 @@ function theYoungest(membersA){
 console.log('La menor del grupo es: ' +joven);
 
 
-let conteoDis = countDesigners(membersA);
-
-function countDesigners(membersA){
-
-  var contador= 0; 
-  for (i=0; i<membersA.length; i++){    
-    if (membersA[i].profession === 'Diseñadora'){
-       contador = i
-    }
- } return contador
-};
-
-console.log('La cantidad de diseñadoras es:' +countDesigners);
+const countDesigners=membersA.filter(item=>{
+  return item.profession==='Diseñadora';},0
+  
+  )
+  console.log ('El numero de diseñadoras es: '+countDesigners.length);
