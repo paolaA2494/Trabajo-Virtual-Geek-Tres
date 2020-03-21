@@ -1,11 +1,8 @@
 'use strict';
 
-
-const product = (a, b) => {
-    const result = a * b;
-    return result;
-}
-
-console.log('El producto entre los dos datos ingresados es: ' +product(1, 4) );
-console.log('El producto entre los dos datos ingresados es: ' +product(2, 10) );
-console.log('El producto entre los dos datos ingresados es: ' +product(11, 3) );
+const button = document.querySelector('.btn');
+const input = document.getElementById('input'); 
+button.addEventListener('click',(e)=>{   
+    console.dir(input);   
+    console.dir(input.value); 
+});

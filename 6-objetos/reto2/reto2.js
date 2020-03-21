@@ -1,10 +1,11 @@
 'use strict';
-function media(a, b, c, d, e) {
-    const result = ((a + b + c + d + e) / 5);
-
-    return result;
-}
-
-console.log('La media es: '+ media(1, 4, 3, 6, 9) );
-console.log('La media es: ' +media(2, 10, 20, 4, 7) );
-console.log('La media es: ' +media(11, 3, 2, 44, 50) );
+const geekGirl1 = {
+ name: 'Susana',
+ age: 34,
+ profession: 'Periodista',
+ distance: 50,
+ run: (phrase) => `Estoy  ${phrase}`,
+ runAMarathon : (distance) => `Estoy corriendo ${distance}`,
+};
+console.log(geekGirl1.run('corriendo'));
+console.log(geekGirl1.runAMarathon(geekGirl1.distance) + ' Kilometros');

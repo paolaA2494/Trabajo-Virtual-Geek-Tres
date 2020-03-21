@@ -1,8 +1,6 @@
-function widhtContentBox (borderBox, width, padding, border) {
-    if (borderBox){
-        console.log(`El ancho del contenido es: ${width}px`);
-    } else {
-        console.log(`El ancho del total de la caja es: ${width+padding+border}`);
-    }
-}
-widhtContentBox(false, 30,20,5);
+'use strict';
+
+const boton =document.getElementById('btn')
+boton.addEventListener('click', ()=>{
+    console.log('ingresó información');
+});

@@ -1,10 +1,15 @@
 'use strict';
-function product(a, b) {
-    const result = a * b;
+const geekGirl1 = {
+ name: 'Susana',
+ age: 34,
+ profession: 'Periodista',
+};
+console.log(`Mi nombre es  ${geekGirl1.name}, ${geekGirl1.age}  años y soy  ${geekGirl1.profession}`)
 
-    return result;
+const geekGirl2 = {
+ name: 'Rocío',
+ age: 25,
+ profession: 'Actriz',
+
 }
-
-console.log('El producto entre los dos datos ingresados es: ' +product(1, 4) );
-console.log('El producto entre los dos datos ingresados es: ' +product(2, 10) );
-console.log('El producto entre los dos datos ingresados es: ' +product(11, 3) );
+console.log(`Mi nombre es  ${geekGirl2.name}, ${geekGirl2.age} años y soy ${geekGirl2.profession}`)

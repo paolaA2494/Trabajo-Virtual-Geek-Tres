@@ -1,0 +1,21 @@
+body {
+    background-color: #ffcc00;
+}
+
+h1 {
+    font-size: 200px;
+    text-align: center;
+}
+
+select {
+    margin-left: 45%;
+    align-items: center;
+}
+
+.bodyimpar {
+    background-color: #ff9900;
+}
+
+.body {
+    background-color: #ffcc00;
+}
